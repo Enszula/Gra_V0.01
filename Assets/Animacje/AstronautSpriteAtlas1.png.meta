@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: b220619fe5fdabb458b10725a7060014
-timeCreated: 1515524383
+timeCreated: 1516105101
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -16,6 +16,8 @@ TextureImporter:
     21300018: AstrReka
     21300020: AstrBron1_Pistolet
     21300022: AstrBron_Karabin
+    21300024: AstronautaGlowa
+    21300026: Serce
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -302,6 +304,38 @@ TextureImporter:
         y: 155
         width: 24
         height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 4.5}
+        - {x: -12, y: -4.5}
+        - {x: 12, y: -4.5}
+        - {x: 12, y: 4.5}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: AstronautaGlowa
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 242
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Serce
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 242
+        width: 10
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -10,6 +10,6 @@ public class MoveTrail : MonoBehaviour {
 	void Update ()
     {
         transform.Translate(Vector3.right * Time.deltaTime * bulletSpeed);
-        Destroy(gameObject, .5f);
+        Destroy(gameObject, .3f);
 	}
 }
