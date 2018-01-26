@@ -5,7 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - GM
-  - Coin
+  - Enemy
+  - Platform
   layers:
   - Default
   - TransparentFX
@@ -17,9 +18,9 @@ TagManager:
   - 
   - Background
   - Player
-  - 
-  - 
-  - 
+  - Enemy
+  - Enviroment
+  - Platform
   - 
   - 
   - 
@@ -46,8 +47,14 @@ TagManager:
   - name: Player
     uniqueID: 851094883
     locked: 0
+  - name: Enemy
+    uniqueID: 4058568705
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Enviroment
+    uniqueID: 3574698079
     locked: 0
   - name: Foreground
     uniqueID: 4048354537

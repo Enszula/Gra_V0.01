@@ -66,5 +66,4 @@ public class Player : MonoBehaviour {
             statusIndicator.SetHealth(playerStats.curHealth, playerStats.maxHealth);
         }
     }
-    
 }
